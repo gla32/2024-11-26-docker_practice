@@ -1,0 +1,22 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python==3.11.9
+  - pip
+  - conda[version='>=24.3.0']
+  - mamba[version='>=1.5.8']
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-spellchecker
+  - pandas
+  - altair
+  - openpyxl
+  - matplotlib
+  - memory_profiler
+  - pytorch
+  - torchaudio
+  - torchvision
+  - dask
+  - conda-lock
+prefix: /Users/gilbertakuja/miniforge3
