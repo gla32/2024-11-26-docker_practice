@@ -4,8 +4,8 @@ channels:
 dependencies:
   - python==3.11.9
   - pip
-  - conda[version='>=24.3.0']
-  - mamba[version='>=1.5.8']
+  - conda
+  - mamba
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-spellchecker
